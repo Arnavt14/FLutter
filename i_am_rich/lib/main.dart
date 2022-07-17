@@ -7,7 +7,16 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("I am Rich"),
+          title: Center(
+            child: Text("I am Rich"),
+          ),
+          backgroundColor: Colors.deepOrangeAccent,
+        ),
+        backgroundColor: Colors.blueAccent,
+        body: Center(
+          child: Image(
+              image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5BHiIjuWc0uqGXPtVicK3ZsMSnX57r3xCRQ&usqp=CAU')
+          ),
         ),
       ),
       ),
